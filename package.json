@@ -1,6 +1,9 @@
 {
   "name": "next-chakra-boilerplate",
   "private": true,
+  "version": "0.1.0",
+  "keywords": ["boilerplate", "nextjs", "chakra", "chakra-ui", "template"],
+  "description": "A simple project boilerplate with Next.js, Chakra-UI, and variable code quality tools",
   "engines": {
     "node": ">=16.13.0"
   },
