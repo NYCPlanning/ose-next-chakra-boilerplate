@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "run-s lint:tsc lint:eslint",
-    "lint:eslint": "next lint",
+    "lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
     "lint:tsc": "tsc --noEmit && tsc --noEmit --project ./cypress/tsconfig.json",
     "test": "jest -c test/jest.config.js",
     "e2e:open": "cypress open",
@@ -56,7 +56,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --cache --fix"
+      "npm run lint:eslint -- --quiet --fix"
     ]
   }
 }

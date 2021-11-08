@@ -29,7 +29,7 @@ const Index = () => (
             isExternal
             href="https://chakra-ui.com"
             flexGrow={1}
-            mr={2}
+            mr={4}
           >
             Chakra UI <LinkIcon />
           </ChakraLink>
