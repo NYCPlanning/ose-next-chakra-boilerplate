@@ -68,8 +68,7 @@ jobs:
       #     restore-keys: |
       #       ${{ runner.os }}-yarn-v1
       - name: Run lint
-        run: npm install
-        run: npm run lint
+        run: npm install && npm run lint
 
   test:
     name: 🧪 Unit Tests
