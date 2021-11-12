@@ -3,14 +3,12 @@ export interface ListProps {
 }
 
 // This is a placeholder component to show a working unit test
-export const List = ({ items }: ListProps) => {
-  return (
-    <ul>
-      {items.map((item, i) => (
-        <li key={i} data-testid="list-item">
-          {item}
-        </li>
-      ))}
-    </ul>
-  );
-};
+export const List = ({ items }: ListProps) => (
+  <ul>
+    {items.map((item, i) => (
+      <li key={i} data-testid="list-item">
+        {item}
+      </li>
+    ))}
+  </ul>
+);
