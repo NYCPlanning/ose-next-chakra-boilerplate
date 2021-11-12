@@ -20,7 +20,7 @@
     "e2e:test": "start-server-and-test start http://localhost:3000 e2e:run",
     "ci:test-build": "run-s lint test build e2e:test",
     "prepare": "husky install",
-    "pre-commit": "run-s lint:tsc lint:eslint -- --quiet --fix"
+    "pre-commit": "run-s lint:tsc -- --pretty lint:eslint -- --quiet --fix"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.17",
