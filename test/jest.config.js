@@ -4,13 +4,13 @@
  */
 
 module.exports = {
-  rootDir: '../',
-  testEnvironment: 'jsdom',
-  setupFilesAfterEnv: ['<rootDir>/test/jest.setup.js'],
-  testMatch: ['**/?(*.)+(spec|test).[tj]s?(x)'],
+  rootDir: "../",
+  testEnvironment: "jsdom",
+  setupFilesAfterEnv: ["<rootDir>/test/jest.setup.js"],
+  testMatch: ["**/?(*.)+(spec|test).[tj]s?(x)"],
   testPathIgnorePatterns: [
-    '<rootDir>/.next/',
-    '<rootDir>/node_modules/',
-    '<rootDir>/cypress/',
+    "<rootDir>/.next/",
+    "<rootDir>/node_modules/",
+    "<rootDir>/cypress/",
   ],
 };
