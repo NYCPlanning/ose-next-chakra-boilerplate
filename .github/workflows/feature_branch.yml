@@ -1,7 +1,9 @@
-name: 🚀 On Push
+name: 🚀 Feature Branch
 
 on:
   push:
+    branches-ignore:
+      - main
 
 # env:
 #   SENTRY_AUTH_TOKEN: '${{ secrets.SENTRY_AUTH_TOKEN }}'
