@@ -20,8 +20,7 @@
     "strict": true,
     "target": "esnext",
     "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "incremental": true
+    "resolveJsonModule": true
   },
   "include": [
     "next-env.d.ts",
